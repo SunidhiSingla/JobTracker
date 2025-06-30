@@ -52,25 +52,7 @@ A comprehensive React-based job application tracking system that helps you manag
    yarn add lucide-react
    ```
 
-3. **Copy the JobTracker component** into your React project
-
-4. **Import and use the component**:
-   ```jsx
-   import JobTracker from './components/JobTracker';
-   
-   function App() {
-     return (
-       <div className="App">
-         <JobTracker />
-       </div>
-     );
-   }
-   ```
-
-### Alternative Setup (No Installation Required)
-- Copy the complete component code
-- Paste into a new React component file
-- The component includes all necessary styling and functionality
+3. npm run dev
 
 ## 📱 Usage Guide
 
@@ -116,7 +98,7 @@ A comprehensive React-based job application tracking system that helps you manag
 1. Click **"Clear All"** button
 2. Confirm action twice (safety feature)
 3. All data will be permanently removed
-4. 
+   
 ## 🔧 Technical Details
 
 ### Dependencies
