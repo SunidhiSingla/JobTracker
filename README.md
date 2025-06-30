@@ -2,8 +2,6 @@
 
 A comprehensive React-based job application tracking system that helps you manage your job search process with persistent data storage and intuitive organization features.
 
-![Job Tracker Dashboard](https://via.placeholder.com/800x400?text=Job+Tracker+Dashboard)
-
 ## 🌟 Features
 
 ### 📊 Dashboard Overview
@@ -118,42 +116,11 @@ A comprehensive React-based job application tracking system that helps you manag
 1. Click **"Clear All"** button
 2. Confirm action twice (safety feature)
 3. All data will be permanently removed
-
-## 🎨 Customization
-
-### Styling
-The component uses inline styles for maximum portability. To customize:
-
-1. **Colors**: Modify the `statusOptions` array colors
-2. **Layout**: Adjust the `styles` object properties
-3. **Responsive Design**: Update grid template columns in `jobsGrid`
-
-### Status Options
-Add or modify application statuses in the `statusOptions` array:
-
-```javascript
-const statusOptions = [
-  { 
-    value: 'custom', 
-    label: 'Custom Status', 
-    color: '#custom-bg-color', 
-    textColor: '#custom-text-color', 
-    icon: CustomIcon 
-  }
-];
-```
-
-### Form Fields
-Add new fields by:
-1. Adding to `formData` initial state
-2. Adding form input in the modal
-3. Adding display in job cards
-4. Updating the handleSubmit function
-
+4. 
 ## 🔧 Technical Details
 
 ### Dependencies
-- **React**: Core framework (16.8+ for hooks support)
+- **React**: Core framework (18.8+ for hooks support)
 - **lucide-react**: Icon library for UI elements
 
 ### Browser Compatibility
@@ -165,29 +132,6 @@ Add new fields by:
 - **Key**: `jobTrackerJobs`
 - **Format**: JSON array of job objects
 - **Backup**: Regular exports recommended
-
-## 🛠️ Development
-
-### File Structure
-```
-src/
-  components/
-    JobTracker.js       # Main component file
-  App.js               # App component
-  index.js             # Entry point
-```
-
-### Adding Features
-1. **New Status Types**: Add to `statusOptions` array
-2. **Additional Fields**: Extend `formData` object
-3. **Custom Sorting**: Add options to `sortBy` logic
-4. **Integration**: Connect to backend APIs by replacing localStorage calls
-
-### Testing
-- Test localStorage functionality in different browsers
-- Verify export/import with various data sizes
-- Check responsive design on mobile devices
-- Test error handling with invalid data
 
 ## 🔒 Privacy & Security
 
